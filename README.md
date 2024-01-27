@@ -5,6 +5,8 @@ However, you can extend the use of this animation fuctionality and solve some is
 I am planning some advanced factions to the animation to give the user more freedom to customize the animation time and speed.<br>
 I decided to call the current version the basic mode until adding the advanced mode i talked about above.<br>
 I welcome any notes or reports might help to improve the fuctionality of the animation. <br>
+## How to use
+Add [has-sengab] + one of the animation classes to the target element.
 ## Basic Mode
 In basic mode you can use the classes above to add one of three animation effects [slide, fade, zoom].<br>
 You should chose one of the pre setting five speeds **[v-slow, slow, normal, fast, v-fast]**.<br>
