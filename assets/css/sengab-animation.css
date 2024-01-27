@@ -1,0 +1,5224 @@
+.fade-in-v-slow {
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-in-v-slow {
+  opacity: 1;
+}
+
+.fade-in-slow {
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].fade-in-slow {
+  opacity: 1;
+}
+
+.fade-in-normal {
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].fade-in-normal {
+  opacity: 1;
+}
+
+.fade-in-fast {
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].fade-in-fast {
+  opacity: 1;
+}
+
+.fade-in-v-fast {
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-in-v-fast {
+  opacity: 1;
+}
+
+.fade-in-v-slow-late {
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-in-v-slow-late {
+  opacity: 1;
+}
+
+.fade-in-v-slow-v-late {
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-in-v-slow-v-late {
+  opacity: 1;
+}
+
+.fade-in-slow-late {
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-in-slow-late {
+  opacity: 1;
+}
+
+.fade-in-slow-v-late {
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-in-slow-v-late {
+  opacity: 1;
+}
+
+.fade-in-normal-late {
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-in-normal-late {
+  opacity: 1;
+}
+
+.fade-in-normal-v-late {
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-in-normal-v-late {
+  opacity: 1;
+}
+
+.fade-in-fast-late {
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-in-fast-late {
+  opacity: 1;
+}
+
+.fade-in-fast-v-late {
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-in-fast-v-late {
+  opacity: 1;
+}
+
+.fade-in-v-fast-late {
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-in-v-fast-late {
+  opacity: 1;
+}
+
+.fade-in-v-fast-v-late {
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-in-v-fast-v-late {
+  opacity: 1;
+}
+
+.fade-out-v-slow {
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-out-v-slow {
+  opacity: 0;
+}
+
+.fade-out-slow {
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].fade-out-slow {
+  opacity: 0;
+}
+
+.fade-out-normal {
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].fade-out-normal {
+  opacity: 0;
+}
+
+.fade-out-fast {
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].fade-out-fast {
+  opacity: 0;
+}
+
+.fade-out-v-fast {
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-out-v-fast {
+  opacity: 0;
+}
+
+.fade-out-v-slow-late {
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-out-v-slow-late {
+  opacity: 0;
+}
+
+.fade-out-v-slow-v-late {
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-out-v-slow-v-late {
+  opacity: 0;
+}
+
+.fade-out-slow-late {
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-out-slow-late {
+  opacity: 0;
+}
+
+.fade-out-slow-v-late {
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-out-slow-v-late {
+  opacity: 0;
+}
+
+.fade-out-normal-late {
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-out-normal-late {
+  opacity: 0;
+}
+
+.fade-out-normal-v-late {
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-out-normal-v-late {
+  opacity: 0;
+}
+
+.fade-out-fast-late {
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-out-fast-late {
+  opacity: 0;
+}
+
+.fade-out-fast-v-late {
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-out-fast-v-late {
+  opacity: 0;
+}
+
+.fade-out-v-fast-late {
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-out-v-fast-late {
+  opacity: 0;
+}
+
+.fade-out-v-fast-v-late {
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-out-v-fast-v-late {
+  opacity: 0;
+}
+
+.fade-up-v-slow {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-up-v-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-slow {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].fade-up-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-normal {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].fade-up-normal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-fast {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].fade-up-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-v-fast {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-up-v-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-v-slow-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-up-v-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-v-slow-v-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-up-v-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-slow-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-up-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-slow-v-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-up-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-normal-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-up-normal-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-normal-v-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-up-normal-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-fast-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-up-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-fast-v-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-up-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-v-fast-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-up-v-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-up-v-fast-v-late {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-up-v-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-v-slow {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-down-v-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-slow {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].fade-down-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-normal {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].fade-down-normal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-fast {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].fade-down-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-v-fast {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-down-v-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-v-slow-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-down-v-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-v-slow-v-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-down-v-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-slow-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-down-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-slow-v-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-down-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-normal-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-down-normal-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-normal-v-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-down-normal-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-fast-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-down-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-fast-v-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-down-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-v-fast-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-down-v-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down-v-fast-v-late {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-down-v-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-right-v-slow {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-right-v-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-slow {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].fade-right-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-normal {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].fade-right-normal {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-fast {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].fade-right-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-v-fast {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-right-v-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-v-slow-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-right-v-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-v-slow-v-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-right-v-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-slow-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-right-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-slow-v-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-right-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-normal-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-right-normal-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-normal-v-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-right-normal-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-fast-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-right-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-fast-v-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-right-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-v-fast-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-right-v-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-right-v-fast-v-late {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-right-v-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-v-slow {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-left-v-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-slow {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].fade-left-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-normal {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].fade-left-normal {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-fast {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].fade-left-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-v-fast {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].fade-left-v-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-v-slow-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-left-v-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-v-slow-v-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-left-v-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-slow-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-left-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-slow-v-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-left-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-normal-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-left-normal-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-normal-v-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-left-normal-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-fast-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-left-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-fast-v-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-left-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-v-fast-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].fade-left-v-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left-v-fast-v-late {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].fade-left-v-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-v-slow {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-v-slow {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-slow {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-slow {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-normal {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-normal {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-fast {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-fast {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-v-fast {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-v-fast {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-v-slow-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-v-slow-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-v-slow-v-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-v-slow-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-slow-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-slow-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-slow-v-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-slow-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-normal-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-normal-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-normal-v-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-normal-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-fast-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-fast-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-fast-v-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-fast-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-v-fast-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-v-fast-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-v-fast-v-late {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-v-fast-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-up-v-slow {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-v-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-slow {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-normal {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-normal {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-fast {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-v-fast {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-v-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-v-slow-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-v-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-v-slow-v-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-v-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-slow-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-slow-v-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-normal-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-normal-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-normal-v-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-normal-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-fast-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-fast-v-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-v-fast-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-v-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-v-fast-v-late {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-v-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-v-slow {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-slow {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-normal {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-fast {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-v-fast {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-v-slow-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-v-slow-v-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-slow-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-slow-v-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-normal-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-normal-v-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-fast-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-fast-v-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-v-fast-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-left-v-fast-v-late {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-v-slow {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-slow {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-normal {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-fast {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-v-fast {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-v-slow-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-v-slow-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-slow-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-slow-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-normal-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-normal-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-fast-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-fast-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-v-fast-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right-v-fast-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-v-slow {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-v-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-slow {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-normal {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-normal {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-fast {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-v-fast {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-v-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-v-slow-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-v-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-v-slow-v-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-v-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-slow-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-slow-v-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-normal-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-normal-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-normal-v-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-normal-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-fast-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-fast-v-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-v-fast-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-v-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-v-fast-v-late {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-v-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-v-slow {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-slow {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-normal {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-fast {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-v-fast {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-v-slow-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-v-slow-v-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-slow-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-slow-v-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-normal-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-normal-v-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-fast-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-fast-v-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-v-fast-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-left-v-fast-v-late {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-v-slow {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-slow {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-normal {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-fast {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-v-fast {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-v-slow-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-v-slow-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-slow-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-slow-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-normal-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-normal-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-fast-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-fast-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-v-fast-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right-v-fast-v-late {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-left-v-slow {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-v-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-slow {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-normal {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-normal {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-fast {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-v-fast {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-v-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-v-slow-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-v-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-v-slow-v-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-v-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-slow-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-slow-v-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-normal-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-normal-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-normal-v-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-normal-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-fast-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-fast-v-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-v-fast-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-v-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-left-v-fast-v-late {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left-v-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-v-slow {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-v-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-slow {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-normal {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-normal {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-fast {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-v-fast {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-v-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-v-slow-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-v-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-v-slow-v-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-v-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-slow-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-slow-v-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-normal-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-normal-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-normal-v-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-normal-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-fast-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-fast-v-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-v-fast-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-v-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right-v-fast-v-late {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right-v-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-v-slow {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-v-slow {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-slow {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-slow {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-normal {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-normal {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-fast {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-fast {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-v-fast {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-v-fast {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-v-slow-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-v-slow-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-v-slow-v-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-v-slow-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-slow-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-slow-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-slow-v-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-slow-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-normal-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-normal-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-normal-v-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-normal-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-fast-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-fast-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-fast-v-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-fast-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-v-fast-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-v-fast-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-v-fast-v-late {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-v-fast-v-late {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-up-v-slow {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-v-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-slow {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-normal {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-normal {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-fast {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-v-fast {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-v-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-v-slow-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-v-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-v-slow-v-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-v-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-slow-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-slow-v-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-normal-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-normal-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-normal-v-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-normal-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-fast-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-fast-v-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-v-fast-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-v-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-v-fast-v-late {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-v-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-v-slow {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-slow {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-normal {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-fast {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-v-fast {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-v-slow-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-v-slow-v-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-slow-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-slow-v-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-normal-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-normal-v-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-fast-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-fast-v-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-v-fast-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-left-v-fast-v-late {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-v-slow {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-slow {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-normal {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-fast {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-v-fast {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-v-slow-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-v-slow-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-slow-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-slow-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-normal-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-normal-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-fast-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-fast-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-v-fast-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right-v-fast-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-v-slow {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-v-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-slow {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-slow {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-normal {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-normal {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-fast {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-v-fast {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-v-fast {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-v-slow-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-v-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-v-slow-v-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-v-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-slow-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-slow-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-slow-v-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-slow-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-normal-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-normal-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-normal-v-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-normal-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-fast-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-fast-v-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-v-fast-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-v-fast-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-v-fast-v-late {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-v-fast-v-late {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-v-slow {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-slow {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-normal {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-fast {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-v-fast {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-v-slow-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-v-slow-v-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-slow-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-slow-v-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-normal-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-normal-v-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-fast-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-fast-v-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-v-fast-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-left-v-fast-v-late {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-v-slow {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-v-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-slow {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-slow {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-normal {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-normal {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-fast {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-v-fast {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-v-fast {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-v-slow-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-v-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-v-slow-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-v-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-slow-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-slow-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-slow-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-slow-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-normal-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-normal-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-normal-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-normal-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-fast-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-fast-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-v-fast-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-v-fast-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right-v-fast-v-late {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-left-v-slow {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-v-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-slow {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-normal {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-normal {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-fast {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-v-fast {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-v-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-v-slow-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-v-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-v-slow-v-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-v-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-slow-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-slow-v-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-normal-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-normal-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-normal-v-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-normal-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-fast-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-fast-v-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-v-fast-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-v-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-left-v-fast-v-late {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left-v-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-v-slow {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-v-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-slow {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-slow {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-normal {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-normal {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-fast {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-v-fast {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-v-fast {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-v-slow-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-v-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-v-slow-v-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-v-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-slow-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-slow-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-slow-v-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-slow-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-normal-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-normal-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-normal-v-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-normal-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-fast-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-fast-v-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-v-fast-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-v-fast-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right-v-fast-v-late {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right-v-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.slide-up-v-slow {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-v-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-slow {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-normal {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-normal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-fast {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-v-fast {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-v-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-v-slow-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-v-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-v-slow-v-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-v-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-slow-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-slow-v-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-normal-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-normal-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-normal-v-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-normal-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-fast-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-fast-v-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-v-fast-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-v-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-v-fast-v-late {
+  transform: translateY(100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-v-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-up-left-v-slow {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-v-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-slow {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-normal {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-normal {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-fast {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-v-fast {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-v-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-v-slow-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-v-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-v-slow-v-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-v-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-slow-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-slow-v-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-normal-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-normal-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-normal-v-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-normal-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-fast-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-fast-v-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-v-fast-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-v-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-left-v-fast-v-late {
+  transform: translate(100px, 100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-left-v-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-v-slow {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-v-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-slow {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-normal {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-normal {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-fast {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-v-fast {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-v-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-v-slow-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-v-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-v-slow-v-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-v-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-slow-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-slow-v-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-normal-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-normal-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-normal-v-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-normal-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-fast-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-fast-v-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-v-fast-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-v-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-up-right-v-fast-v-late {
+  transform: translate(-100px, 100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-up-right-v-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-v-slow {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-v-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-slow {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-slow {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-normal {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-normal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-fast {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-v-fast {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-v-fast {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-v-slow-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-v-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-v-slow-v-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-v-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-slow-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-slow-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-slow-v-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-slow-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-normal-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-normal-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-normal-v-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-normal-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-fast-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-fast-v-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-v-fast-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-v-fast-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-v-fast-v-late {
+  transform: translateY(-100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-v-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-down-left-v-slow {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-v-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-slow {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-normal {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-normal {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-fast {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-v-fast {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-v-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-v-slow-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-v-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-v-slow-v-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-v-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-slow-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-slow-v-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-normal-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-normal-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-normal-v-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-normal-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-fast-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-fast-v-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-v-fast-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-v-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-left-v-fast-v-late {
+  transform: translate(100px, -100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-left-v-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-v-slow {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-v-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-slow {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-slow {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-normal {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-normal {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-fast {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-v-fast {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-v-fast {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-v-slow-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-v-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-v-slow-v-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-v-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-slow-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-slow-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-slow-v-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-slow-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-normal-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-normal-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-normal-v-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-normal-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-fast-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-fast-v-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-v-fast-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-v-fast-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-down-right-v-fast-v-late {
+  transform: translate(-100px, -100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-down-right-v-fast-v-late {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.slide-right-v-slow {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-right-v-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-slow {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-right-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-normal {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-right-normal {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-fast {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-right-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-v-fast {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-right-v-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-v-slow-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-right-v-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-v-slow-v-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-right-v-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-slow-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-right-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-slow-v-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-right-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-normal-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-right-normal-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-normal-v-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-right-normal-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-fast-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-right-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-fast-v-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-right-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-v-fast-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-right-v-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-right-v-fast-v-late {
+  transform: translateX(-100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-right-v-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-v-slow {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-left-v-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-slow {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.has-sengab[data-sengab=on].slide-left-slow {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-normal {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].slide-left-normal {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-fast {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.has-sengab[data-sengab=on].slide-left-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-v-fast {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.has-sengab[data-sengab=on].slide-left-v-fast {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-v-slow-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-left-v-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-v-slow-v-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-left-v-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-slow-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 1s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-left-slow-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-slow-v-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 1s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-left-slow-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-normal-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.8s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-left-normal-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-normal-v-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.8s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-left-normal-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-fast-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.5s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-left-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-fast-v-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.5s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-left-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-v-fast-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.3s linear 1s;
+}
+
+.has-sengab[data-sengab=on].slide-left-v-fast-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-v-fast-v-late {
+  transform: translateX(100px);
+  opacity: 1;
+  transition: all 0.3s linear 2s;
+}
+
+.has-sengab[data-sengab=on].slide-left-v-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/*
+ All copyrights reserved to Sengab Animation.
+ https://github.com/Shimi14/sengab-animation
+*/

@@ -1,0 +1,16 @@
+# Ignore node modules
+node_modules/
+
+# Ignore index.html
+*.html
+
+# Igonre Scss
+assets/scss/
+
+# Igonre style.css
+assets/css/style.css
+assets/css/style.min.css
+
+# Ignore gylp related files
+gulpfile.js
+**.json
