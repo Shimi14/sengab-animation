@@ -33,10 +33,18 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
             //  Check whether the element is scaled
             function detectScale(x) {
-                const itemTransform = getComputedStyle(x).getPropertyValue('transform');
-                const itemMatrex = itemTransform.match(/^matrix\((.+)\)$/)[1].split(', ');
-                let itemScaleY = itemMatrex[3];
-
+                let itemScaleY;
+                if( 'none' !==  getComputedStyle(x)) {
+                    if( 'none' !==   getComputedStyle(x).getPropertyValue('transform')) {
+                        const itemTransform = getComputedStyle(x).getPropertyValue('transform');
+                        const itemMatrex = itemTransform.match(/^matrix\((.+)\)$/)[1].split(', ');
+                        itemScaleY = itemMatrex[3];
+                    }else {
+                        itemScaleY = 1;
+                    }
+                }else {
+                    itemScaleY = 1;
+                }
                 return itemScaleY;
             }
             
