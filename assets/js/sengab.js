@@ -73,7 +73,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
             detectWindowsEvents(['load','scroll','resize'], ()=> {
                 detectWindowsEvents(['resize'], ()=> {
-                    sengabPos = getpos();
+                    sengabPos = getpos(sengab);
                 })
                 winHeight = window.innerHeight;
                 sengabHeight = sengab.clientHeight;
