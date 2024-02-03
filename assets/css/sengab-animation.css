@@ -3900,57 +3900,47 @@
 
 .slide-up-v-slow {
   transform: translateY(100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-v-slow {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-up-slow {
   transform: translateY(100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-slow {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-up-normal {
   transform: translateY(100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-normal {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-up-fast {
   transform: translateY(100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-fast {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-up-v-fast {
   transform: translateY(100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-v-fast {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-up-v-slow-late {
@@ -4065,57 +4055,47 @@
 
 .slide-up-left-v-slow {
   transform: translate(100px, 100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-left-v-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-left-slow {
   transform: translate(100px, 100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-left-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-left-normal {
   transform: translate(100px, 100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-left-normal {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-left-fast {
   transform: translate(100px, 100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-left-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-left-v-fast {
   transform: translate(100px, 100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-left-v-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-left-v-slow-late {
@@ -4230,57 +4210,47 @@
 
 .slide-up-right-v-slow {
   transform: translate(-100px, 100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-right-v-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-right-slow {
   transform: translate(-100px, 100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-right-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-right-normal {
   transform: translate(-100px, 100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-right-normal {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-right-fast {
   transform: translate(-100px, 100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-right-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-right-v-fast {
   transform: translate(-100px, 100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-up-right-v-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-up-right-v-slow-late {
@@ -4395,57 +4365,47 @@
 
 .slide-down-v-slow {
   transform: translateY(-100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-v-slow {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-down-slow {
   transform: translateY(-100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-slow {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-down-normal {
   transform: translateY(-100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-normal {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-down-fast {
   transform: translateY(-100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-fast {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-down-v-fast {
   transform: translateY(-100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-v-fast {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .slide-down-v-slow-late {
@@ -4560,57 +4520,47 @@
 
 .slide-down-left-v-slow {
   transform: translate(100px, -100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-left-v-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-left-slow {
   transform: translate(100px, -100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-left-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-left-normal {
   transform: translate(100px, -100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-left-normal {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-left-fast {
   transform: translate(100px, -100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-left-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-left-v-fast {
   transform: translate(100px, -100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-left-v-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-left-v-slow-late {
@@ -4725,57 +4675,47 @@
 
 .slide-down-right-v-slow {
   transform: translate(-100px, -100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-right-v-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-right-slow {
   transform: translate(-100px, -100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-right-slow {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-right-normal {
   transform: translate(-100px, -100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-right-normal {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-right-fast {
   transform: translate(-100px, -100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-right-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-right-v-fast {
   transform: translate(-100px, -100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-down-right-v-fast {
   transform: translate(0);
-  opacity: 1;
 }
 
 .slide-down-right-v-slow-late {
@@ -4890,57 +4830,47 @@
 
 .slide-right-v-slow {
   transform: translateX(-100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-right-v-slow {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-right-slow {
   transform: translateX(-100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-right-slow {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-right-normal {
   transform: translateX(-100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-right-normal {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-right-fast {
   transform: translateX(-100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-right-fast {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-right-v-fast {
   transform: translateX(-100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-right-v-fast {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-right-v-slow-late {
@@ -5055,57 +4985,47 @@
 
 .slide-left-v-slow {
   transform: translateX(100px);
-  opacity: 1;
   transition: all 3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-left-v-slow {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-left-slow {
   transform: translateX(100px);
-  opacity: 1;
   transition: all 1s linear;
 }
 
 .has-sengab[data-sengab=on].slide-left-slow {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-left-normal {
   transform: translateX(100px);
-  opacity: 1;
   transition: all 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].slide-left-normal {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-left-fast {
   transform: translateX(100px);
-  opacity: 1;
   transition: all 0.5s linear;
 }
 
 .has-sengab[data-sengab=on].slide-left-fast {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-left-v-fast {
   transform: translateX(100px);
-  opacity: 1;
   transition: all 0.3s linear;
 }
 
 .has-sengab[data-sengab=on].slide-left-v-fast {
   transform: translateX(0);
-  opacity: 1;
 }
 
 .slide-left-v-slow-late {
