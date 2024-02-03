@@ -6,7 +6,8 @@ I am planning some advanced factions to the animation to give the user more free
 I decided to call the current version the basic mode until adding the advanced mode i talked about above.<br>
 I welcome any notes or reports might help to improve the fuctionality of the animation. <br>
 ## How to use
-Add [has-sengab] + one of the animation classes to the target element.
+Add [has-sengab] class and one of the animation classes to the target element.<br>
+Add [toggle-sengab] class to the element if you want the animation to continue happening every time you scroll to the element. 
 ## Basic Mode
 In basic mode you can use the classes above to add one of three animation effects [slide, fade, zoom].<br>
 You should chose one of the pre setting five speeds **[v-slow, slow, normal, fast, v-fast]**.<br>
