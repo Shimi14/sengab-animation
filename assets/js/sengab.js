@@ -19,9 +19,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
         // Get the correct position of the Animation item
         function getpos(x) {
             let pos = setupPosition(x);
-            const scale = detectScale(x);
+            const scaleValue = detectTransform(x)[0];
+            const translateValue = detectTransform(x)[1];
             let deffValue;
-
             // Get the position of the element
             function setupPosition(x) {
                 let itemPos = x.getBoundingClientRect().top;
@@ -32,32 +32,36 @@ window.addEventListener('DOMContentLoaded', ()=>{
             }
 
             //  Check whether the element is scaled
-            function detectScale(x) {
+            function detectTransform(x) {
                 let itemScaleY;
-                if( 'none' !==  getComputedStyle(x)) {
-                    if( 'none' !==   getComputedStyle(x).getPropertyValue('transform')) {
+                let itemTranslateY;
+                if( 'none' !=  getComputedStyle(x)) {
+                    if( 'none' !=   getComputedStyle(x).getPropertyValue('transform')) {
                         const itemTransform = getComputedStyle(x).getPropertyValue('transform');
                         const itemMatrex = itemTransform.match(/^matrix\((.+)\)$/)[1].split(', ');
                         itemScaleY = itemMatrex[3];
+                        itemTranslateY = itemMatrex[5];
                     }else {
                         itemScaleY = 1;
+                        itemTranslateY = 0;
                     }
                 }else {
                     itemScaleY = 1;
+                    itemTranslateY = 0;
                 }
-                return itemScaleY;
+                return [itemScaleY,itemTranslateY];
             }
             
-            if(scale != 1) {
+            if(scaleValue != 1) {
                 // If the element is scaled
                 // get the size difference before and after Sscaling.
-                if(scale != 0) {
-                    deffValue = x.clientHeight - ((scale * x.clientHeight)/2);
+                if(scaleValue != 0) {
+                    deffValue = x.clientHeight - ((scaleValue * x.clientHeight)/2) - translateValue;
                 }else {
-                    deffValue = (x.clientHeight * -1) / 2;
+                    deffValue = ((x.clientHeight * -1) / 2) - translateValue;
                 }
             }else {
-                deffValue = 0
+                deffValue = 0 - translateValue
             }
             // Add or subtract the difference to/from the element scroll position
             pos += deffValue
