@@ -39,13 +39,13 @@ You can also customize the scale values and the translate values of the element 
 To customize the scale values add [data-sengab-scale="(value1,value2)"].<br>
 To customize the translation values add [data-sengab-translateY=""] or [data-sengab-translateX=""] or both of them and add the value in quotation mark same as you write in css.
 
+## Anchor Scroll Fixer
+Sengab Animation fixes the scroll position to the anchor link target automatically if the scroll starts on page load. But it do not fix it if you the scroll starts after clicking the anchor link.<br>
+To fix the scroll of anchor link add [data-sengab-anchor="#targetID"] to the anchor link and add the ID of the target element same as the one in the 'href' attribute.
+<br><br>
+
 ## Animation Classes
 Here is all the animations you can use.<br>
-> [!CAUTION]
-> Do not forget to add the animation speed.
-> fade-in-(speed)<br>
-> **speeds** : [v-slow, slow, normal, fast, v-fast]
-<br>
 
 |fade|slide|zoom|
 |---:|----|-----|
@@ -76,9 +76,5 @@ Here is all the animations you can use.<br>
 |fade-right|slide-right|-|
 |fade-left|slide-left||
 
-## Anchor Scroll Fixer
-Sengab Animation fixes the scroll position to the anchor link target automatically if the scroll starts on page load. But it do not fix it if you the scroll starts after clicking the anchor link.<br>
-To fix the scroll of anchor link add [data-sengab-anchor="#targetID"] to the anchor link and add the ID of the target element same as the one in the 'href' attribute.
-<br><br>
 All copyrights reserved to Sengab Animation.
 https://github.com/Shimi14/sengab-animation
