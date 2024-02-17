@@ -1,0 +1,2547 @@
+
+// Sengab Animation Variables
+
+$animations_setting : (
+    'fade': (
+        'in': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':false,
+                    'value': (
+                        'direction': null,
+                        'start': null,
+                        'end': null,
+                    )
+                )
+    
+            ),
+            'effect' : ease-in
+        ),
+        'out': (
+            'time-setting':(
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting':(
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':1,
+                        'end':0
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':false,
+                    'value': (
+                        'direction': null,
+                        'start': null,
+                        'end': null,
+                    )
+                )
+            ),
+            'effect' : ease-in
+        ),
+        'up': (
+            'time-setting':(
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting':(
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': 100px,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-in
+        ),
+        'down': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': -100px,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-in
+        ),
+        'right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': -100px,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-in
+        ),
+        'left': (
+            'time-setting' : (
+                'normal' : (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': 100px,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-in
+        ),
+    ),
+    'zoom': (
+        'in': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(0, 0),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':false,
+                    'value': (
+                        'direction': null,
+                        'start': null,
+                        'end': null,
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-up': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': 100vh,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-up-left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (100%,100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-up-right': (
+            'time-setting': (
+
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (-100%,100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-down': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': -100vh,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-down-left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (100%,-100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-down-right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (-100%,-100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': (100%),
+                        'end': (0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'in-right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(.5, .5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': (-100%),
+                        'end': (0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':false,
+                    'value': (
+                        'direction': null,
+                        'start': null,
+                        'end': null,
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-up': (
+            'time-setting': (
+
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': 100vh,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-up-left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (100%,100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-up-right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (-100%,100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-down': (
+            'time-setting': (
+
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': -100vh,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-down-left': (
+            'time-setting': (
+
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (100%,-100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-down-right': (
+            'time-setting': (
+
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (-100%,-100%),
+                        'end': (0,0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': (100%),
+                        'end': (0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+        'out-right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':true,
+                    'value': (
+                        'start':0,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':true,
+                    'value': (
+                        'start':(1.5, 1.5),
+                        'end':(1, 1)
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': (-100%),
+                        'end': (0),
+                    )
+                )
+            ),
+            'effect' : linear
+        ),
+    ),
+    'slide': (
+        'up': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': 100px,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-out
+        ),
+        'up-left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )   
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (100px,100px),
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-out
+        ),
+        'up-right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )   
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (-100px,100px),
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-out
+        ),
+        'down': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': Y,
+                        'start': -100px,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-out
+        ),
+        'down-left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (100px, -100px),
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-out
+        ),
+        'down-right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': null,
+                        'start': (-100px, -100px),
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-out
+        ),
+        'right': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': -100px,
+                        'end': 0,
+                    )
+                )
+            ),
+            'effect' : ease-out
+        ),
+        'left': (
+            'time-setting': (
+                'normal': (
+                    'v-slow': 3s,
+                    'slow': 1s,
+                    'normal': .8s,
+                    'fast': .5s,
+                    'v-fast': .3s
+                ),
+                'delay': (
+                    'v-slow-late': (
+                        'duration': 3s,
+                        'delay-time': 1s
+                    ) ,
+                    'v-slow-v-late': (
+                        'duration': 3s,
+                        'delay-time': 2s
+                    ) ,
+                    'slow-late': (
+                        'duration': 1s,
+                        'delay-time': 1s
+                    ) ,
+                    'slow-v-late': (
+                        'duration': 1s,
+                        'delay-time': 2s
+                    ) ,
+                    'normal-late': (
+                        'duration': .8s,
+                       'delay-time': 1s  
+    
+                    ),
+                    'normal-v-late': (
+                        'duration': .8s,
+                        'delay-time': 2s  
+                    ),
+                    'fast-late': (
+                        'duration': .5s,
+                        'delay-time': 1s 
+                    ),
+                    'fast-v-late': (
+                        'duration': .5s,
+                        'delay-time': 2s
+                    ),
+                    'v-fast-late': (
+                        'duration': .3s,
+                        'delay-time': 1s
+                    ),
+                    'v-fast-v-late': (
+                        'duration': .3s,
+                        'delay-time': 2s
+                    ) 
+                )
+            ),
+            'move-setting': (
+                'opacity': (
+                    'boolen':false,
+                    'value': (
+                        'start':1,
+                        'end':1
+                    )
+                ),
+                'scale': (
+                    'boolen':false,
+                    'value': (
+                        'start':'null',
+                        'end':'null'
+                    )
+                ),
+                'translate': (
+                    'boolen':true,
+                    'value': (
+                        'direction': X,
+                        'start': 100px,
+                        'end': 0,
+                    )
+                )
+
+            ),
+            'effect' : ease-out
+        ),
+    ),
+);
+

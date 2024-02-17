@@ -1,3 +1,16 @@
+/*
+ All copyrights reserved to Sengab Animation.
+ https://github.com/Shimi14/sengab-animation
+*/
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+.has-sengab[data-sengab=on].fade-in {
+  opacity: 1;
+}
+
 .fade-in-v-slow {
   opacity: 0;
   transition: opacity 3s ease-in;
@@ -133,6 +146,15 @@
   opacity: 1;
 }
 
+.fade-out {
+  opacity: 1;
+  transition: opacity 0.8s ease-in;
+}
+
+.has-sengab[data-sengab=on].fade-out {
+  opacity: 0;
+}
+
 .fade-out-v-slow {
   opacity: 1;
   transition: opacity 3s ease-in;
@@ -266,6 +288,17 @@
 
 .has-sengab[data-sengab=on].fade-out-v-fast-v-late {
   opacity: 0;
+}
+
+.fade-up {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: transform ease-in, opacity ease-in;
+}
+
+.has-sengab[data-sengab=on].fade-up {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .fade-up-v-slow {
@@ -429,6 +462,17 @@
 }
 
 .has-sengab[data-sengab=on].fade-up-v-fast-v-late {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-down {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: transform ease-in, opacity ease-in;
+}
+
+.has-sengab[data-sengab=on].fade-down {
   transform: translateY(0);
   opacity: 1;
 }
@@ -598,6 +642,17 @@
   opacity: 1;
 }
 
+.fade-right {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform ease-in, opacity ease-in;
+}
+
+.has-sengab[data-sengab=on].fade-right {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .fade-right-v-slow {
   transform: translateX(-100px);
   opacity: 0;
@@ -759,6 +814,17 @@
 }
 
 .has-sengab[data-sengab=on].fade-right-v-fast-v-late {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-left {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: transform ease-in, opacity ease-in;
+}
+
+.has-sengab[data-sengab=on].fade-left {
   transform: translateX(0);
   opacity: 1;
 }
@@ -928,6 +994,17 @@
   opacity: 1;
 }
 
+.zoom-in {
+  transform: scale(0, 0);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
 .zoom-in-v-slow {
   transform: scale(0, 0);
   opacity: 0;
@@ -1090,6 +1167,17 @@
 
 .has-sengab[data-sengab=on].zoom-in-v-fast-v-late {
   transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-in-up {
+  transform: scale(0.5, 0.5) translateY(100vh);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up {
+  transform: scale(1, 1) translateY(0);
   opacity: 1;
 }
 
@@ -1258,6 +1346,17 @@
   opacity: 1;
 }
 
+.zoom-in-up-left {
+  transform: scale(0.5, 0.5) translate(100%, 100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-left {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
 .zoom-in-up-left-v-slow {
   transform: scale(0.5, 0.5) translate(100%, 100%);
   opacity: 0;
@@ -1419,6 +1518,17 @@
 }
 
 .has-sengab[data-sengab=on].zoom-in-up-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-up-right {
+  transform: scale(0.5, 0.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-up-right {
   transform: scale(1, 1) translate(0, 0);
   opacity: 1;
 }
@@ -1588,6 +1698,17 @@
   opacity: 1;
 }
 
+.zoom-in-down {
+  transform: scale(0.5, 0.5) translateY(-100vh);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
 .zoom-in-down-v-slow {
   transform: scale(0.5, 0.5) translateY(-100vh);
   opacity: 0;
@@ -1753,6 +1874,17 @@
   opacity: 1;
 }
 
+.zoom-in-down-left {
+  transform: scale(0.5, 0.5) translate(100%, -100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-left {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
 .zoom-in-down-left-v-slow {
   transform: scale(0.5, 0.5) translate(100%, -100%);
   opacity: 0;
@@ -1914,6 +2046,17 @@
 }
 
 .has-sengab[data-sengab=on].zoom-in-down-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-in-down-right {
+  transform: scale(0.5, 0.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-down-right {
   transform: scale(1, 1) translate(0, 0);
   opacity: 1;
 }
@@ -2083,6 +2226,17 @@
   opacity: 1;
 }
 
+.zoom-in-left {
+  transform: scale(0.5, 0.5) translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-left {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
 .zoom-in-left-v-slow {
   transform: scale(0.5, 0.5) translateX(100%);
   opacity: 0;
@@ -2244,6 +2398,17 @@
 }
 
 .has-sengab[data-sengab=on].zoom-in-left-v-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-in-right {
+  transform: scale(0.5, 0.5) translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-in-right {
   transform: scale(1, 1) translateX(0);
   opacity: 1;
 }
@@ -2413,6 +2578,17 @@
   opacity: 1;
 }
 
+.zoom-out {
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
 .zoom-out-v-slow {
   transform: scale(1.5, 1.5);
   opacity: 0;
@@ -2575,6 +2751,17 @@
 
 .has-sengab[data-sengab=on].zoom-out-v-fast-v-late {
   transform: scale(1, 1);
+  opacity: 1;
+}
+
+.zoom-out-up {
+  transform: scale(1.5, 1.5) translateY(100vh);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up {
+  transform: scale(1, 1) translateY(0);
   opacity: 1;
 }
 
@@ -2743,6 +2930,17 @@
   opacity: 1;
 }
 
+.zoom-out-up-left {
+  transform: scale(1.5, 1.5) translate(100%, 100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-left {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
 .zoom-out-up-left-v-slow {
   transform: scale(1.5, 1.5) translate(100%, 100%);
   opacity: 0;
@@ -2904,6 +3102,17 @@
 }
 
 .has-sengab[data-sengab=on].zoom-out-up-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-up-right {
+  transform: scale(1.5, 1.5) translate(-100%, 100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-up-right {
   transform: scale(1, 1) translate(0, 0);
   opacity: 1;
 }
@@ -3073,6 +3282,17 @@
   opacity: 1;
 }
 
+.zoom-out-down {
+  transform: scale(1.5, 1.5) translateY(-100vh);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down {
+  transform: scale(1, 1) translateY(0);
+  opacity: 1;
+}
+
 .zoom-out-down-v-slow {
   transform: scale(1.5, 1.5) translateY(-100vh);
   opacity: 0;
@@ -3238,6 +3458,17 @@
   opacity: 1;
 }
 
+.zoom-out-down-left {
+  transform: scale(1.5, 1.5) translate(100%, -100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-left {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
 .zoom-out-down-left-v-slow {
   transform: scale(1.5, 1.5) translate(100%, -100%);
   opacity: 0;
@@ -3399,6 +3630,17 @@
 }
 
 .has-sengab[data-sengab=on].zoom-out-down-left-v-fast-v-late {
+  transform: scale(1, 1) translate(0, 0);
+  opacity: 1;
+}
+
+.zoom-out-down-right {
+  transform: scale(1.5, 1.5) translate(-100%, -100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-down-right {
   transform: scale(1, 1) translate(0, 0);
   opacity: 1;
 }
@@ -3568,6 +3810,17 @@
   opacity: 1;
 }
 
+.zoom-out-left {
+  transform: scale(1.5, 1.5) translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-left {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
 .zoom-out-left-v-slow {
   transform: scale(1.5, 1.5) translateX(100%);
   opacity: 0;
@@ -3729,6 +3982,17 @@
 }
 
 .has-sengab[data-sengab=on].zoom-out-left-v-fast-v-late {
+  transform: scale(1, 1) translateX(0);
+  opacity: 1;
+}
+
+.zoom-out-right {
+  transform: scale(1.5, 1.5) translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s linear, opacity 0.8s linear;
+}
+
+.has-sengab[data-sengab=on].zoom-out-right {
   transform: scale(1, 1) translateX(0);
   opacity: 1;
 }
@@ -3898,6 +4162,15 @@
   opacity: 1;
 }
 
+.slide-up {
+  transform: translateY(100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-up {
+  transform: translateY(0);
+}
+
 .slide-up-v-slow {
   transform: translateY(100px);
   transition: transform 3s ease-out;
@@ -4033,6 +4306,15 @@
   transform: translateY(0);
 }
 
+.slide-up-left {
+  transform: translate(100px, 100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-up-left {
+  transform: translate(0);
+}
+
 .slide-up-left-v-slow {
   transform: translate(100px, 100px);
   transition: transform 3s ease-out;
@@ -4165,6 +4447,15 @@
 }
 
 .has-sengab[data-sengab=on].slide-up-left-v-fast-v-late {
+  transform: translate(0);
+}
+
+.slide-up-right {
+  transform: translate(-100px, 100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-up-right {
   transform: translate(0);
 }
 
@@ -4303,6 +4594,15 @@
   transform: translate(0);
 }
 
+.slide-down {
+  transform: translateY(-100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-down {
+  transform: translateY(0);
+}
+
 .slide-down-v-slow {
   transform: translateY(-100px);
   transition: transform 3s ease-out;
@@ -4438,6 +4738,15 @@
   transform: translateY(0);
 }
 
+.slide-down-left {
+  transform: translate(100px, -100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-down-left {
+  transform: translate(0);
+}
+
 .slide-down-left-v-slow {
   transform: translate(100px, -100px);
   transition: transform 3s ease-out;
@@ -4570,6 +4879,15 @@
 }
 
 .has-sengab[data-sengab=on].slide-down-left-v-fast-v-late {
+  transform: translate(0);
+}
+
+.slide-down-right {
+  transform: translate(-100px, -100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-down-right {
   transform: translate(0);
 }
 
@@ -4708,6 +5026,15 @@
   transform: translate(0);
 }
 
+.slide-right {
+  transform: translateX(-100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-right {
+  transform: translateX(0);
+}
+
 .slide-right-v-slow {
   transform: translateX(-100px);
   transition: transform 3s ease-out;
@@ -4840,6 +5167,15 @@
 }
 
 .has-sengab[data-sengab=on].slide-right-v-fast-v-late {
+  transform: translateX(0);
+}
+
+.slide-left {
+  transform: translateX(100px);
+  transition: transform 0.5s ease-out;
+}
+
+.has-sengab[data-sengab=on].slide-left {
   transform: translateX(0);
 }
 
@@ -4977,8 +5313,3 @@
 .has-sengab[data-sengab=on].slide-left-v-fast-v-late {
   transform: translateX(0);
 }
-
-/*
- All copyrights reserved to Sengab Animation.
- https://github.com/Shimi14/sengab-animation
-*/
