@@ -37,7 +37,7 @@
                 @if not map-get($opacity , 'boolen' ) == true {
                     transition: transform .5s $effect;
                 }@else {
-                    transition: transform .5s $effect, opacity 8s  $effect;
+                    transition: transform .5s $effect, opacity .8s  $effect;
                     opacity: $opacity_start;
                 }
             }@else if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == false {

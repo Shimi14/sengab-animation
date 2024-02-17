@@ -1173,7 +1173,7 @@
 .zoom-in-up {
   transform: scale(0.5, 0.5) translateY(100vh);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-up {
@@ -1349,7 +1349,7 @@
 .zoom-in-up-left {
   transform: scale(0.5, 0.5) translate(100%, 100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-up-left {
@@ -1525,7 +1525,7 @@
 .zoom-in-up-right {
   transform: scale(0.5, 0.5) translate(-100%, 100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-up-right {
@@ -1701,7 +1701,7 @@
 .zoom-in-down {
   transform: scale(0.5, 0.5) translateY(-100vh);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-down {
@@ -1877,7 +1877,7 @@
 .zoom-in-down-left {
   transform: scale(0.5, 0.5) translate(100%, -100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-down-left {
@@ -2053,7 +2053,7 @@
 .zoom-in-down-right {
   transform: scale(0.5, 0.5) translate(-100%, -100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-down-right {
@@ -2229,7 +2229,7 @@
 .zoom-in-left {
   transform: scale(0.5, 0.5) translateX(100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-left {
@@ -2405,7 +2405,7 @@
 .zoom-in-right {
   transform: scale(0.5, 0.5) translateX(-100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-in-right {
@@ -2757,7 +2757,7 @@
 .zoom-out-up {
   transform: scale(1.5, 1.5) translateY(100vh);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-up {
@@ -2933,7 +2933,7 @@
 .zoom-out-up-left {
   transform: scale(1.5, 1.5) translate(100%, 100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-up-left {
@@ -3109,7 +3109,7 @@
 .zoom-out-up-right {
   transform: scale(1.5, 1.5) translate(-100%, 100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-up-right {
@@ -3285,7 +3285,7 @@
 .zoom-out-down {
   transform: scale(1.5, 1.5) translateY(-100vh);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-down {
@@ -3461,7 +3461,7 @@
 .zoom-out-down-left {
   transform: scale(1.5, 1.5) translate(100%, -100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-down-left {
@@ -3637,7 +3637,7 @@
 .zoom-out-down-right {
   transform: scale(1.5, 1.5) translate(-100%, -100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-down-right {
@@ -3813,7 +3813,7 @@
 .zoom-out-left {
   transform: scale(1.5, 1.5) translateX(100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-left {
@@ -3989,7 +3989,7 @@
 .zoom-out-right {
   transform: scale(1.5, 1.5) translateX(-100%);
   opacity: 0;
-  transition: transform 0.5s linear, opacity 8s linear;
+  transition: transform 0.5s linear, opacity 0.8s linear;
 }
 
 .has-sengab[data-sengab=on].zoom-out-right {
