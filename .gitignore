@@ -1,16 +1,14 @@
 # Ignore node modules
 node_modules/
 
-# Ignore index.html
+# Ignore html files
 *.html
 
-# Igonre Scss
-assets/scss/
+# Igonre Scss files not related to src files
+assets/scss/*
+!assets/scss/animation
+!assets/scss/sengab-animation*
 
-# Igonre style.css
-assets/css/style.css
-assets/css/style.min.css
-
-# Ignore gylp related files
-gulpfile.js
-**.json
+# Igonre css files not related to src files
+assets/css/*
+!assets/css/sengab-animation*

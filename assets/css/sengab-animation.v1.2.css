@@ -1,3 +1,7 @@
+/*
+ All copyrights reserved to Sengab Animation.
+ https://github.com/Shimi14/sengab-animation
+*/
 .fade-in {
   opacity: 0;
   transition: opacity 0.8s ease-in;
@@ -5309,8 +5313,3 @@
 .has-sengab[data-sengab=on].slide-left-v-fast-v-late {
   transform: translateX(0);
 }
-
-/*
- All copyrights reserved to Sengab Animation.
- https://github.com/Shimi14/sengab-animation
-*/

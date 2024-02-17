@@ -1,0 +1,224 @@
+@use 'animation/variables' as * ;
+/*
+ All copyrights reserved to Sengab Animation.
+ https://github.com/Shimi14/sengab-animation
+*/
+@mixin sengabAnimationCreater($animation) {
+    // アニメーションの設定データ
+    $animation_setting: map-get($animations_setting , $animation );
+
+    @each $key, $map in $animation_setting {
+        // 時間の設定
+        $timeSetting : map-get($map, 'time-setting');
+        $normal: map-get($timeSetting , 'normal' );
+        $delay: map-get($timeSetting , 'delay' );
+        // 動作の設定
+        $move_setting : map-get($map, 'move-setting');
+        // イージングの設定
+        $effect : map-get($map, 'effect');
+        //　動作1： Opacity
+        $opacity : map-get($move_setting,'opacity');
+        $opacity_start : (map-get(map-get($opacity,'value'), 'start' ));
+        $opacity_end : (map-get(map-get($opacity,'value'), 'end' ));
+        //　動作2： scale
+        $scale : map-get($move_setting,'scale');
+        $scale_start : (map-get(map-get($scale,'value'), 'start' ));
+        $scale_end : (map-get(map-get($scale,'value'), 'end' ));
+        //　動作3： Translate
+        $translate : map-get($move_setting,'translate');
+        $direction : (map-get(map-get($translate,'value'), 'direction' ));
+        $translate_start : (map-get(map-get($translate,'value'), 'start' ));
+        $translate_end : (map-get(map-get($translate,'value'), 'end' ));
+
+        // Basic Animation
+        .#{$animation}-#{$key} {
+            @if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == true {
+                transform: scale($scale_start) translate#{$direction}($translate_start);
+                @if not map-get($opacity , 'boolen' ) == true {
+                    transition: transform .5s $effect;
+                }@else {
+                    transition: transform .5s $effect, opacity 8s  $effect;
+                    opacity: $opacity_start;
+                }
+            }@else if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == false {
+                transform: scale($scale_start);
+                @if not map-get($opacity , 'boolen' ) == true {
+                    transition: transform .5s $effect;
+                }@else {
+                    transition: transform .5s $effect, opacity .8s $effect;
+                    opacity: $opacity_start;
+                }
+            }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == true {
+                transform: translate#{$direction}($translate_start);
+                @if not map-get($opacity , 'boolen' ) == true {
+                    transition: transform .5s $effect;
+                }@else {
+                    transition: transform $effect, opacity $effect;
+                    opacity: $opacity_start;
+                }
+            }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == false {
+                @if map-get($opacity , 'boolen' ) == true {
+                    opacity: $opacity_start;
+                    transition: opacity .8s $effect;
+                }
+            }
+        }
+        .has-sengab {
+            &[data-sengab="on"] {
+                &.#{$animation}-#{$key} {
+                    @if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == true {
+                        transform: scale($scale_end) translate#{$direction}($translate_end);
+                        @if map-get($opacity , 'boolen' ) == true {
+                            opacity: $opacity_end;
+                        }
+                    }@else if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == false {
+                        transform: scale($scale_end);
+                        @if map-get($opacity , 'boolen' ) == true {
+                            opacity: $opacity_end;
+                        }
+                    }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == true {
+                        transform: translate#{$direction}($translate_end);
+                        @if map-get($opacity , 'boolen' ) == true {
+                            opacity: $opacity_end;
+                        }
+                    }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == false {
+                        @if map-get($opacity , 'boolen' ) == true {
+                            opacity: $opacity_end;
+                        }
+                    }
+                }
+            }
+        }
+        // Normal (timed) Animation
+        @each $type, $duration in $normal {
+            .#{$animation}-#{$key}-#{$type} {
+                @if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == true {
+                    transform: scale($scale_start) translate#{$direction}($translate_start);
+                    @if not map-get($opacity , 'boolen' ) == true {
+                        transition: transform $duration $effect;
+                    }@else {
+                        transition: transform $duration $effect, opacity ($duration + ($duration * .1) ) $effect;
+                        opacity: $opacity_start;
+                    }
+                }@else if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == false {
+                    transform: scale($scale_start);
+                    @if not map-get($opacity , 'boolen' ) == true {
+                        transition: transform $duration $effect;
+                    }@else {
+                        transition: transform $duration $effect, opacity ($duration + ($duration * .1) ) $effect;
+                        opacity: $opacity_start;
+                    }
+                }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == true {
+                    transform: translate#{$direction}($translate_start);
+                    @if not map-get($opacity , 'boolen' ) == true {
+                        transition: transform $duration $effect;
+                    }@else {
+                        transition: transform $duration $effect, opacity ($duration + ($duration * .1) ) $effect;
+                        opacity: $opacity_start;
+                    }
+                }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == false {
+                    @if map-get($opacity , 'boolen' ) == true {
+                        opacity: $opacity_start;
+                        transition: opacity $duration $effect;
+                    }
+                }
+            }
+            .has-sengab {
+                &[data-sengab="on"] {
+                    &.#{$animation}-#{$key}-#{$type} {
+                        @if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == true {
+                            transform: scale($scale_end) translate#{$direction}($translate_end);
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }@else if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == false {
+                            transform: scale($scale_end);
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == true {
+                            transform: translate#{$direction}($translate_end);
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == false {
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Animation With Delay
+        @each $type, $data in $delay {
+            $duration: map-get($data,'duration');
+            $time: map-get($data,'delay-time');
+            .#{$animation}-#{$key}-#{$type} {
+                @if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == true {
+                    transform: scale($scale_start) translate#{$direction}($translate_start);
+                    @if not map-get($opacity , 'boolen' ) == true {
+                        transition: transform $duration $effect $time ;
+                    }@else {
+                        transition: transform $duration $effect $time , opacity ($duration + ($duration * .1)) $effect $time;
+                        opacity: $opacity_start;
+                    }
+                }@else if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == false {
+                    transform: scale($scale_start);
+                    @if not map-get($opacity , 'boolen' ) == true {
+                        transition: transform $duration $effect $time ;
+                    }@else {
+                        transition: transform $duration $effect $time , opacity ($duration + ($duration * .1)) $effect $time;
+                        opacity: $opacity_start;
+                    }
+                }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == true {
+                    transform: translate#{$direction}($translate_start);
+                    @if not map-get($opacity , 'boolen' ) == true {
+                        transition: transform $duration $effect $time ;
+                    }@else {
+                        transition: transform $duration $effect $time , opacity ($duration + ($duration * .1)) $effect $time;
+                        opacity: $opacity_start;
+                    }
+                }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == false {
+                    @if map-get($opacity , 'boolen' ) == true {
+                        transition: opacity ($duration + ($duration * .1)) $effect $time;
+                        opacity: $opacity_start;
+                    }
+                }
+            }
+            .has-sengab {
+                &[data-sengab="on"] {
+                    &.#{$animation}-#{$key}-#{$type} {
+                        @if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == true {
+                            transform: scale($scale_end) translate#{$direction}($translate_end);
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }@else if map-get($scale , 'boolen' ) == true and map-get($translate , 'boolen' ) == false {
+                            transform: scale($scale_end);
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == true {
+                            transform: translate#{$direction}($translate_end);
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }@else if map-get($scale , 'boolen' ) == false and map-get($translate , 'boolen' ) == false {
+                            @if map-get($opacity , 'boolen' ) == true {
+                                opacity: $opacity_end;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@include sengabAnimationCreater('fade');
+@include sengabAnimationCreater('zoom');
+@include sengabAnimationCreater('slide');
