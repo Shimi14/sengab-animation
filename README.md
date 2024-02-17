@@ -1,31 +1,45 @@
 # Sengab Animation
-Welcome to Senga Animation
-This animation is an open source animation created for beginner coders who is looking for a simple to use animation as this animation can be used only by adding css classes and no need to use any other attribute for it's basic use.<br>
-However, you can extend the use of this animation fuctionality and solve some issues might happens when targetin an animation item by anchor link.But in this case you will have to use some attributes otherwise you will have to fix the issue by yourself. 
-I am planning some advanced factions to the animation to give the user more freedom to customize the animation time and speed.<br>
-I decided to call the current version the basic mode until adding the advanced mode i talked about above.<br>
-I welcome any notes or reports might help to improve the fuctionality of the animation. <br>
+## How to setup
+1- Download [sengab-animation.v**.js] file form [assets/js] folder and include it to your project.<br>
+2- Download [sengab-animation.v**.css] or [sengab-animation.v**.min.css] file [assets/css] folder and include it to your project.
+
 ## How to use
-Add [has-sengab] class and one of the animation classes to the target element.<br>
-Add [toggle-sengab] class to the element if you want the animation to continue happening every time you scroll to the element. 
-## Basic Mode
-In basic mode you can use the classes above to add one of three animation effects [slide, fade, zoom].<br>
-You should chose one of the pre setting five speeds **[v-slow, slow, normal, fast, v-fast]**.<br>
-Finally if you want to add a delay, you can chose one of two delay moodes **[late, v-late]**.<br>
-That is how the class looks like.<br>
-||Type|Speed|Delay|
-|-:|----|-----|-----|
-|Example-1|fade-in|fast||
-|Example-2|fade-in|fast|late|
+1- Add [has-sengab] class to the element you want to add animation effect to so that it's recognized as an animation target.<br>
+2- Add one of the animation classes from the <a href="#animation-classes" >Animation Classes</a> table.<br>
 
-The class of example one will be (fade-in-fast).<br>
-The class of example two will be (fade-in-fast-late).<br>
-||Type|Speed|Delay|
-|-:|----|-----|-----|
-|Wrong<br>example|fade-in|||
+## More Customization
 
-The last exapmle is a wrong example as the animation will not be recognized if you has not chosed any speed.
-### Animation Types
+### Customize the animation duration
+By default the animation duration is **0.5s** for  transformation and **0.8s** for opacity, but you can customize the animation duration using one of the two methods below. <br>
+
+<ins>Method one:</ins><br>
+Add one of **[v-slow, slow, normal, fast, v-fast]** to the end of the class (ex: slide-right-fast) . <br><br>
+<ins>Method two:</ins><br>
+Add [data-sengab-duration=""] and add the value between the quotation mark (ex: data-sengab-duration=".2s").<br><br>
+
+### Customize the animation delay
+There is two methods to customize the animation delay.<br><br>
+
+<ins>Method one:</ins><br>
+Add one of **[late, v-late]** to the end of the class. You can use this method only when you use the first method of the <a href="#customize-the-animation-duration">Customize the animation duration</a> and the delay class word should come after the duration class word (ex: slide-right-fast-late) . <br><br>
+
+<ins>Method two:</ins><br>
+Add [data-sengab-delay=""] and add the value between the quotation mark (ex: data-sengab-delay=".2s").<br><br>
+
+### Customize the animation times
+
+2- Add [toggle-sengab] class to the element if you want the animation effect to be toggled every time the scroll reaches the element.<br>
+
+### Customize the animation start position
+By default, the animation effect starts when the scroll passes 20% of the element height. However, you can change the animation start position by adding [data-sengab-start-pos=""].and add a value between 0 ~ 1 as 0 means that the animation should start when the scroll reaches the to top (as 0 mean 0%) of the element, and 1 means that the animation should it start when the scroll reaches the end (as 1 means 100%) of the element.<br>
+
+### Customize the transform values of the element (<ins>Not recommended</ins>)
+
+You can also customize the scale values and the translate values of the element to increase or decrease the speed of the animation or even to create your custom animation movement, however this effect will work when the page load only if the scroll position was lower than the element position for the first animation or in the second time of the animation with a toggle behavior.<br>
+To customize the scale values add [data-sengab-scale="(value1,value2)"].<br>
+To customize the translation values add [data-sengab-translateY=""] or [data-sengab-translateX=""] or both of them and add the value in quotation mark same as you write in css.
+
+## Animation Classes
 Here is all the animations you can use.<br>
 > [!CAUTION]
 > Do not forget to add the animation speed.
@@ -62,9 +76,9 @@ Here is all the animations you can use.<br>
 |fade-right|slide-right|-|
 |fade-left|slide-left||
 
-### Anchor Scroll Fixer
+## Anchor Scroll Fixer
 Sengab Animation fixes the scroll position to the anchor link target automatically if the scroll starts on page load. But it do not fix it if you the scroll starts after clicking the anchor link.<br>
-To fix the scroll of anchor link add **[data-sengab-anchor="#targetID"]** to the anchor link and add the ID of the target element same as the one in the 'href' attribute.
+To fix the scroll of anchor link add [data-sengab-anchor="#targetID"] to the anchor link and add the ID of the target element same as the one in the 'href' attribute.
 <br><br>
 All copyrights reserved to Sengab Animation.
 https://github.com/Shimi14/sengab-animation
